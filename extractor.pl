@@ -4,6 +4,7 @@
 # Works with dumps with multiple DBs and per-DB dumps.
 #
 # Usage: extractor.pl DB table1 table2 ... 
+# Latest version: https://raw.githubusercontent.com/tsolodov/mysqltools/master/extractor.pl
 
 use strict;
 
