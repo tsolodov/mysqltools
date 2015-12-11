@@ -15,7 +15,7 @@ my $s;
 my $counter = 0;
 my $currtable ="";
 
-# Diable outbut buffering.
+# Diable output buffering.
 $| = 1;
 
 if (!defined($ARGV[0])) {
