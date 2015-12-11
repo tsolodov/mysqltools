@@ -45,7 +45,7 @@ while (defined($s = <STDIN>)) {
 	if ($s =~ /^USE `([^`]+)`;/) {
 	$currentdb = $1;
     print STDERR $currentdb."\n";
-    if ($is_db_mateched) { print STDERR "Closing pipe due another DB found.\n"; exit 0; }
+    if ($is_db_mateched) { print STDERR "Exiting...\n"; exit 0; }
     if ($currentdb eq $db) { $is_db_mateched = 1; }
     #don't need USE <DB> in the result.
     next;
